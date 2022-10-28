@@ -170,3 +170,38 @@ body{
     position: relative;
 }
 /* section 4 */
+.container.schedule{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.schedule-para{
+    line-height: 30px;
+    font-family: Open sans;
+    margin: 30px 0px 50px 0px;
+    color: rgb(70, 69, 69);
+    max-width: 400px;
+    margin: 20px 0px;
+}
+.schedule-para2{
+    line-height: 30px;
+    font-family: Open sans;
+    margin: 30px 0px 50px 0px;
+    color: rgb(70, 69, 69);
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+.schedule-h2{
+    max-width: 400px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: cabin;
+}
+.schedule-anger{
+    color: #62CEF5;
+}
+.schedule-calender{
+    position: absolute;  
+}
