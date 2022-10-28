@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color:#f5f7fa;
+}
 .container{
     width: auto;
     height: auto;
@@ -83,4 +86,37 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.hub-text{
+    margin-top: 250px;
+}
+.hub-h2{
+    max-width: 350px;
+    font-size: 50px;
+    font-weight: 300;
+
+}
+.hub-para{
+    color: rgb(70, 69, 69);
+    max-width: 400px;
+    margin: 20px 0px;
+    font-family: Open sans;
+}
+.hub-section{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.assets-image{
+    position: absolute;
+    right: 15px;
+    height: 700px;
+}
+.assets-img{
+    
+    position: absolute;
+    right: 200px;
+}
+.hub-learn{
+    color: #62CEF5;
 }
