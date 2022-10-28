@@ -135,7 +135,9 @@ body{
     align-items: center;
     margin-bottom: 50px;
 }
- 
+.task-main-img{
+    position: relative;
+} 
 .task-text{
     margin-left: 200px;
 }
@@ -154,4 +156,17 @@ body{
 .task-anger{
     color: #62CEF5;
 }
-
+.task-assets3{
+ position: absolute;
+  left: 500px;
+  bottom: -1180px;
+}
+.task-assets2{
+  position: absolute;
+  left: 520px;
+  bottom: -1070px;
+}
+.task-main-img{
+    position: relative;
+}
+/* section 4 */
