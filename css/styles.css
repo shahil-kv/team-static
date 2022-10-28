@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    height: auto;
+    padding: 40px 150px 0px 150px ;
+    /* background-color: red; */
+}
+.nav-anger{
+    text-decoration: none;
+    color: white;
+}
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.hero-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero-section{
+    height: 100vh;
+   width: 100vw;
+   background-image: url('../Assets/linkedin-sales-solutions-vqWWOnA6--M-unsplash\ 1.jpg');
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-texts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.hero-main-text{
+    max-width: 500px;
+}
+.hero-para{
+    max-width: 400px;
+    margin: 20px 0px 70px 0px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Open Sans,sans-serif;
+}
+.hero-button{
+    margin-bottom: 20px;
+}
+.hero-main-h1{
+    font-family: cabin;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.input-box{
+    padding: 10px 50px ;
+    border-radius: 5px;
+    border: none;
+}
+.input-btn{
+    background-color: #62CEF5;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+.nav-button{
+    padding:5px 10px ;
+    border-radius: 5px;
+    border: none;
+   background-color: rgba(255, 255, 255, 0.4);
+}
+.team-icon{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.container.hub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
