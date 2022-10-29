@@ -59,7 +59,9 @@ body{
     color: white;
 }
 .input-box{
-    padding: 10px 50px ;
+    padding-left: 7px;
+    height: 40px;
+    width: 270px;
     border-radius: 5px;
     border: none;
 }
@@ -72,7 +74,9 @@ body{
     margin-left: 10px;
 }
 .nav-button{
-    padding:5px 10px ;
+    color: white;
+    width: 120px;
+    height: 40px;
     border-radius: 5px;
     border: none;
    background-color: rgba(255, 255, 255, 0.4);
@@ -80,6 +84,7 @@ body{
 .team-icon{
     color: white;
     font-size: 50px;
+    font-family: cabin;
     font-weight: 700;
 }
 .container.hub{
@@ -250,6 +255,7 @@ body{
     padding: 30px;
     margin-left: 15px;
     border: none;
+    border-radius: 6px;
     background-color: white;
     margin-bottom: 110px;
 }
@@ -260,4 +266,56 @@ body{
   width: 50%;
   height: 70%;
   border-radius: 50%;
+}
+.container.footer{
+    background-color: #26313c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    color: white;
+    padding-top: 60px;
+}
+.footer-para{
+    margin-top: 30px;
+    max-width: 130px;
+    font-family: mulish;
+}
+.footer-column-2{
+    display: flex;
+    flex-direction: column;
+    font-family: cabin;
+  
+    justify-content: space-between;
+}
+.footer-column-3{
+    display: flex;
+    flex-direction: column;
+    font-family: cabin;
+
+    justify-content: space-between; 
+}
+.footer-column-4{
+    display: flex;
+    flex-direction: column;
+    font-family: cabin;
+}
+.footer-para.last{
+    margin-bottom: 20px;
+}
+.footer-icon{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: cabin;
+}
+.footer-para{
+    color: rgb(242, 242, 242);
+    font-weight: 100;
+    font-size: small;
+}
+.footer-input{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
 }
