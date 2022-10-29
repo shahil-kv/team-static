@@ -1,3 +1,4 @@
+/* normalisation */
 *{
     margin: 0;
     padding: 0;
@@ -6,14 +7,15 @@
 body{
     background-color:#f5f7fa;
 }
+/* hero-section */
 .container{
     width: auto;
     height: auto;
     padding: 40px 150px 0px 150px ;
-    /* background-color: red; */
 }
 .nav-anger{
     text-decoration: none;
+    font-weight: 100;
     color: white;
 }
 .nav-ul{
@@ -36,9 +38,10 @@ body{
     background-size: cover;
 }
 .hero-texts{
+    max-width: 500px;
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 170px;
 }
 .hero-main-text{
     max-width: 500px;
@@ -49,9 +52,7 @@ body{
     color: rgba(255, 255, 255, 0.7);
     font-family: Open Sans,sans-serif;
 }
-.hero-button{
-    margin-bottom: 20px;
-}
+
 .hero-main-h1{
     font-family: cabin;
     font-size: 50px;
@@ -67,7 +68,7 @@ body{
 }
 .input-btn{
     background-color: #62CEF5;
-    padding: 10px 20px;
+    padding: 11px 20px;
     color: white;
     border-radius: 5px;
     border: none;
@@ -87,6 +88,7 @@ body{
     font-family: cabin;
     font-weight: 700;
 }
+/* hero-section */
 .container.hub{
     display: flex;
     flex-direction: row;
