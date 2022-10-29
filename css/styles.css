@@ -96,11 +96,14 @@ body{
     justify-content: space-between;
 }
 .hub-text{
-    margin-top: 250px;
+    /* margin-top: 250px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
 }
 .hub-image{
     padding-top: 60px;
-    background-color: yellow;
     height: 700px;
 }
 .hub-h2{
@@ -108,7 +111,6 @@ body{
     font-size: 50px;
     font-weight: 500;
     font-family: cabin;
-
 }
 .hub-para{
     line-height: 30px;
@@ -127,8 +129,7 @@ body{
     position: absolute;
     height: 720px;
 }
-.assets-small-img{
-    
+.assets-small-img{  
    position: absolute; 
    right: 120px;
    top: 210px;
@@ -136,7 +137,7 @@ body{
 .hub-learn{
     color: #62CEF5;
 }
-
+ 
 .task{
     width: 100vw;
    margin-top: 100px;
