@@ -291,6 +291,18 @@ body{
   height: 100%;
   border-radius: 70%;
 }
+.profile-button-swipe{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1100px ;
+    margin-bottom: 100px;
+}
+.profile-arrow{
+    background:none;
+    border: none;
+    color: rgb(103, 211, 250);
+   
+}
 /* footer */
 .container.footer{
     background-color: #26313c;
@@ -299,7 +311,7 @@ body{
     justify-content: space-between;
     padding-bottom: 150px;
     color: white;
-    padding-top: 60px;
+    padding-top: 70px;
 }
 .footer-para{
     margin-top: 30px;
@@ -310,14 +322,12 @@ body{
     display: flex;
     flex-direction: column;
     font-family: cabin;
-  
     justify-content: space-between;
 }
 .footer-column-3{
     display: flex;
     flex-direction: column;
     font-family: cabin;
-
     justify-content: space-between; 
 }
 .footer-column-4{
@@ -339,8 +349,9 @@ body{
     font-size: small;
 }
 .footer-input{
-    width: 200px;
+    width: 250px;
     height: 30px;
-    border-radius: 6px;
+    padding-left: 5px;
+    border-radius: 3px;
     border: none;
 }
