@@ -88,10 +88,11 @@ body{
     font-family: cabin;
     font-weight: 700;
 }
-/* hero-section */
+/* hub-section starts */
 .container.hub{
     display: flex;
     flex-direction: row;
+ 
     justify-content: space-between;
 }
 .hub-text{
@@ -99,6 +100,8 @@ body{
 }
 .hub-image{
     padding-top: 60px;
+    background-color: yellow;
+    height: 700px;
 }
 .hub-h2{
     max-width: 350px;
@@ -119,19 +122,21 @@ body{
     height: 730px;
     width: 100vw;
 }
-.assets-image{
+.assets-main-img{
+    right: 10px;
     position: absolute;
-    right: 15px;
-    height: 700px;
+    height: 720px;
 }
-.assets-img{
+.assets-small-img{
     
-    position: absolute;
-    right: 200px;
+   position: absolute; 
+   right: 120px;
+   top: 210px;
 }
 .hub-learn{
     color: #62CEF5;
 }
+
 .task{
     width: 100vw;
    margin-top: 100px;
@@ -141,6 +146,7 @@ body{
     flex-direction: row;
     align-items: center;
     margin-bottom: 50px;
+    margin: 0px;
 }
 .task-main-img{
     position: relative;
