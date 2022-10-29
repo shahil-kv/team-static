@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     background-color:#f5f7fa;
 }
@@ -96,11 +99,11 @@ body{
     justify-content: space-between;
 }
 .hub-text{
-    /* margin-top: 250px; */
-    display: flex;
+    margin-top: 250px;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 700px;
+    height: 800px; */
 }
 .hub-image{
     padding-top: 60px;
@@ -137,8 +140,8 @@ body{
 .hub-learn{
     color: #62CEF5;
 }
- 
-.task{
+ /* task section starts here */
+.task.section{
     width: 100vw;
    margin-top: 100px;
 }
@@ -149,11 +152,12 @@ body{
     margin-bottom: 50px;
     margin: 0px;
 }
-.task-main-img{
-    position: relative;
-} 
+
 .task-text{
     margin-left: 200px;
+}
+.task-img{
+    position: relative;
 }
 .task-text-h2{
     max-width: 400px;
@@ -170,19 +174,19 @@ body{
 .task-anger{
     color: #62CEF5;
 }
-.task-assets3{
+.task-small-img-3{
  position: absolute;
-  left: 500px;
-  bottom: -1180px;
+ top: -5px;
+ 
+ right: -5px;
 }
-.task-assets2{
+.task-small-img-2{
   position: absolute;
-  left: 520px;
-  bottom: -1070px;
+  position: absolute;
+  top: 120px;
+  right: 6px;
 }
-.task-main-img{
-    position: relative;
-}
+
 /* section 4 */
 .container.schedule{
     display: flex;
